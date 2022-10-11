@@ -1,1 +1,27 @@
+# Q2
+# Pattern Logic: 
+# (i) Output has the list of product of elements with window size of 3 ennumerating the input list starting from a index 'input[0]%len(input)' 
+# (ii) 1st element of input list depicts the starting position of the window
+# Testcase 1: input=[5,1,4,2]
+# input[0]=5; The window starts from input[0]%4 i,e index 1; 
+# P1=1*4*2
+# P2=4*2*5
+# P3=2*5*1
+# P4=5*1*4
+# Output=[P1,P2,P3,P4] => [8,40,10,20]
 
+def fun(input):
+  window=3
+  n=len(input)
+  start=input[0]%n
+  output=[]
+  for i in range(n):
+    temp=1
+    for j in range(window):
+      temp*=input[(start+i+j)%n]
+    output.append(temp)
+  return(output)
+
+# Printing the output for the two test cases
+print(fun([5,1,4,2]))
+print(fun([1,0,3,4]))
