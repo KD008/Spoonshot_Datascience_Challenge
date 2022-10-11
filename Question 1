@@ -1,3 +1,5 @@
+# Q1
+
 s = """munchbox meals munchbox is a geelong-based boutique meal prep and delivery service,
   specialising in artisan vegan and vegetarian meals and munchies. with a passion for
   providing delicious and nutritious food that is ethical, sustainable and affordable, all
@@ -58,6 +60,12 @@ s = """munchbox meals munchbox is a geelong-based boutique meal prep and deliver
   festivals, markets, and events.. but i can’t give too much away! we have sooo many
   surprises for ya’ll, but i can’t spoil them all at once! check it out via insta @vegan.munchbox
   or you can get your munch on at munchboxmeals.com.au"""
+import numpy as np
+import pandas as pd
+import nltk
+nltk.download('punkt')
+from nltk.tokenize import sent_tokenize
+nltk.download('punkt')
 sentences1 = []
 # for s in tweet_data:
 sentences1.append(sent_tokenize(s))
@@ -67,12 +75,8 @@ sentences1 = [y for x in sentences1 for y in x]
 print(len(sentences1))
 print(sentences1)
 
-import numpy as np
-import pandas as pd
-import nltk
-nltk.download('punkt')
 
-from nltk.tokenize import sent_tokenize
+
 sentences = []
 # for s in tweet_data:
 sentences.append(sent_tokenize(s))
@@ -184,4 +188,3 @@ for i in range(len(sentence_vectors2)):
 
 vals.sort(reverse=True)
 print(vals)
-
