@@ -1,0 +1,20 @@
+#Word Embedding with GloVe
+#Vectorised the article and ingredients using GloVe
+#Then found similarity scores using cosine similarity 
+
+Ranking Bais: Ranked the ingredients based on Similarity score
+
+Output:
+[(0.49277354850913235, 'vegan white cake'), (0.4586762872556627, 'vegetable stock'), (0.4472747212653265, 'cadbury double decker chocolate bar'),
+(0.44286296482375387, 'crunch bars'), (0.38019859830455666, 'vegan chicken strips'), (0.3737443549088164, 'snickers spread'), (0.37356928093741093, 'orange extract'),
+(0.3518772002922118, 'organic peruvian groundcherry'), (0.3468408939442682, 'organic maize'), (0.34551774627806914, 'baby abalone'), (0.3436918547627563, 'chia meal'),
+(0.32965422186212373, 'organic tartar cream'), (0.32579017130087823, 'arizona seasoning'), (0.3217046797646223, 'vegan puff pastry sheet'), (0.3208914449291855, 'pork lungs'),
+(0.3125931874633695, 'vegan semisweet chocolate chips'), (0.30450167483788915, 'peanut butter'), (0.292938968643514, 'mccormick montreal steak seasoning'),
+(0.2834388675060659, 'munch chocolate'), (0.27600273794884994, 'apple cinnamon granola'), (0.2696044350600074, 'pork chump chops'), (0.26737470439533134, 'ambrette seed'),
+(0.26340114002641984, 'salmon'), (0.262583347900653, 'celery soup'), (0.25515660045372296, 'tomato'), (0.24232605354558814, 'vegan carob chips'),
+(0.2411013817641006, 'americano coffee'), (0.21480123266442383, 'pork tripe'), (0.17684594993211758, 'vinegar'), (0.17378392459363015, 'murukku packet'),
+(0.16481614835023123, 'mango'), (0.14293493257437687, 'strawberry gelatin'), (0.13682717615357706, 'campari tomato'), (0.1358167997981655, 'vegan marshmallow'),
+(0.1253956017331898, 'vegan chorizo'), (0.09971989748044975, 'smokies sausage'), (0.09650589946526544, 'pickled cauliflower'), (0.0661388058962204, 'hog maw'),
+(0.009717640282894345, 'cardamom'), (0.009614212220555852, 'mulberry'), (0.002329813996622258, 'tamarind'), (-0.16462982794606779, 'muesli'),
+(-0.29559608552397587, 'giardiniera')]
+
