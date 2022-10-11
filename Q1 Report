@@ -1,6 +1,5 @@
 #Word Embedding with GloVe
-#Vectorised the article and ingredients using GloVe
-#Then found similarity scores using cosine similarity 
+#Found similarity scores using cosine similarity 
 
 Ranking Bais: Ranked the ingredients based on Similarity score
 
