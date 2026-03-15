@@ -1,1 +1,2 @@
-print("deepak is great IITian")
+print("hello world")
+print("welcome to spoonshot")
